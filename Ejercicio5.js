@@ -1,3 +1,5 @@
+//Ejercicio 5
+
 function info(cadena) {
 
     let resultado = "La cadena \""+cadena+"\" ";

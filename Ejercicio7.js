@@ -11,7 +11,7 @@ function mostrarTablaMultiplicar(numero) {
 }
 
 // Solicitar al usuario un número
-var numeroUsuario = prompt("Ingrese un número para ver su tabla de multiplicar:");
+ const numeroUsuario = prompt("Ingrese un número para ver su tabla de multiplicar:");
 
 // Verificar si se ingresó un número válido
 if (!isNaN(numeroUsuario)) {

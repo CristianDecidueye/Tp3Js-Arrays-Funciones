@@ -1,4 +1,4 @@
-/* Ejercicio 2 */
+// Ejercicio 2
 
 // Arreglo para almacenar las ciudades
 const ciudades =['Nueva York, Estados Unidos', 'Barcelona, España', 'Tokio, Japón', 'Londres, Reino Unido', 'Roma, Italia', 'Pekín, China', 'Río de Janeiro, Brasil', 'Ámsterdam, Países Bajos', 'Sídney, Australia', 'El Cairo, Egipto']
@@ -37,4 +37,8 @@ console.log("Elemento en la segunda posición:", ciudades[1]);
 ciudades[1] = "Barcelona, España";
 
 // Mostrar el arreglo actualizado
-document.write("<h1>Arreglo de ciudades:</h1>", `<li>${ciudades}</li>`);
+document.write("<h1>Arreglo de ciudades:</h1>",`<ul>
+<li>${ciudades}</li>
+</ul>
+
+`);

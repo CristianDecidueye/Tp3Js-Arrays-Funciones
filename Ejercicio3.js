@@ -1,3 +1,5 @@
+//Ejercicio 3
+
 // Función para simular el lanzamiento de un dado
 function lanzarDado() {
     return Math.floor(Math.random() * 6) + 1;
